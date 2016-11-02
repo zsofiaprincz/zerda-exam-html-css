@@ -11,21 +11,21 @@ p, td{
   font-size: 14px;
 }
 
+
+
 .rightcontainer {
-  float:right;
-  height: auto;
   padding-left: 20px;
-  width: 350px;
+  padding-right: 80px;
+  max-width: 260px;
   border-left: 10px solid #546294;
-
-
+  position: relative;
 }
 
 .JohnDoe, .JaneDoe {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-
+  /*max-width: 540px; this moved both boxes to the left, up until this point they were in the center */
 }
 
 .JohnDoe > .rightcontainer{
@@ -36,10 +36,12 @@ p, td{
   background-color: #acb7e1;
 }
 
-table {
-  border-collapse: separate;
-}
-
 td:nth-child(2) {
   padding-left: 50px;
+}
+
+.pencil{
+  position:absolute;
+  bottom: 20px;
+  right: 20px;
 }
