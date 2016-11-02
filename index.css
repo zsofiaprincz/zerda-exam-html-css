@@ -38,5 +38,8 @@ p, td{
 
 table {
   border-collapse: separate;
+}
 
+td:nth-child(2) {
+  padding-left: 50px;
 }
