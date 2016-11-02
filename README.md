@@ -43,8 +43,8 @@ Extra points for if:
 
 ## 2. Understand code (~15 minutes) [2 points]
 Read the following code snippet:   
-What is the distance between the top-left corner of the document body and the yellow box? <br>  <em> top 40px , left 40px </em>
-Give a detailed explanation below!  <br> <em>The position of the blue box is absolute which means its child element (defined on the bottom by divs) is positionned absolutely anywhere relative to its parent. The parent element is 20-20 from top left and by positionning the yellow box 20-20 also top left, we define the 20 pixels from the corner of the blue box.</em>
+What is the distance between the top-left corner of the document body and the yellow box? <br>  <em> top 40px , left 40px </em> <br>
+Give a detailed explanation below!  <br> <em>The position of the blue box is absolute which means its child element (defined on the bottom by divs) is positionned absolutely anywhere relative to its parent. The parent element is 20-20 from top left and by positionning the yellow box 20-20 also top left, we define the 20 pixels from the corner of the blue box.</em><br>
 Add your answer to this readme file, commit your changes to this repository.
 ```HTML
 <!DOCTYPE html>
