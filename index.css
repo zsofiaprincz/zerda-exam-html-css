@@ -4,8 +4,39 @@ body {
 
 h1 {
   font-size: 28px;
+  font-weight: 400;
 }
 
 p, td{
   font-size: 14px;
+}
+
+.rightcontainer {
+  float:right;
+  height: auto;
+  padding-left: 20px;
+  width: 350px;
+  border-left: 10px solid #546294;
+
+
+}
+
+.JohnDoe, .JaneDoe {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+}
+
+.JohnDoe > .rightcontainer{
+  background-color: #fffff0;
+}
+
+.JaneDoe > .rightcontainer{
+  background-color: #acb7e1;
+}
+
+table {
+  border-collapse: separate;
+
 }
