@@ -90,18 +90,18 @@ Add your answer to this readme file, commit your changes to this repository.
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 #### Your answer: [2p]
 
-### display:block <em>It means the element takes the whole space from left to right in the document flow, it speads out horizontally as far as it can. In more colloquial terms it 'blocks'a whole line in the vertical document flow. By default block level elements are div, p, h1-h6 etc...</em>
+display:block <em>It means the element takes the whole space from left to right in the document flow, it speads out horizontally as far as it can. In more colloquial terms it 'blocks'a whole line in the vertical document flow. By default block level elements are div, p, h1-h6 etc...</em>
 
-### display:inline <em> Inline is the opposite of block in a sense that the element does not take more horizontal space then its element size. Inline lements are placed next to each other in a line. Padding and margin can only be applied vertically, top or bottom padding or margin cannot be applied. The most popular inline elemnts are a, span etc..</em>
+display:inline <em> Inline is the opposite of block in a sense that the element does not take more horizontal space then its element size. Inline lements are placed next to each other in a line. Padding and margin can only be applied vertically, top or bottom padding or margin cannot be applied. The most popular inline elemnts are a, span etc..</em>
 
-### display:inline-block <em> Similar to inline except that we can add top and bottom margins and padding to it, so the element will have effect on the horizontal size of the page.Or the other way around: similar to block except that it sits in the line.</em>
+display:inline-block <em> Similar to inline except that we can add top and bottom margins and padding to it, so the element will have effect on the horizontal size of the page.Or the other way around: similar to block except that it sits in the line.</em>
 
 
 
-### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
+#### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 #### Your answer: [2p]
 
-### section <em> Section tag is used to mark a seperate part in html e.g chapter</em>
+section <em> Section tag is used to mark a seperate part in html e.g chapter</em>
 
-#### article <em> Article is a self-contained tag that stands alone in the site and intended to be redistributable. Blog entries, magazine articles are typical article tags. 
+article <em> Article is a self-contained tag that stands alone in the site and intended to be redistributable. Blog entries, magazine articles are typical article tags. 
 
